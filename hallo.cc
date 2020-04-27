@@ -1,5 +1,7 @@
 #include <iostream>
 
 int main() {
-  std::cout << "Hallo Welt!" << std::endl;
+  int zahl;
+  std::cin >> zahl;
+  std::cout << "Zahl = " << zahl << std::endl;
 }
