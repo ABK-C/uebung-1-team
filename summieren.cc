@@ -19,7 +19,7 @@ int main() {
       std::cout << zahl << " ";
       AnzahlIteration += 1;
     } 
-    fout << "Summe = "<< Summe << std::endl;
+    fout << Summe << std::endl;
     std::cout << "Summe = " << Summe << std::endl;
   }
   std::cout << "Anzahl Iterationsschritte = " << AnzahlIteration << std::endl;
